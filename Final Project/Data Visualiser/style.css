@@ -1,0 +1,30 @@
+body{
+    font-family:sans-serif
+}
+
+.menu-item {
+    width: 250px;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    list-style-type: none;
+    padding: 5px;
+}
+
+.container {
+  display: flex;
+}
+
+.hover {
+    background: lightgray
+}
+
+.selected{
+    background: gold
+}
+
+/* START OF MY CODE */
+#map { 
+    height: 450px; 
+    width: 850px;
+}
